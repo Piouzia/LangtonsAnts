@@ -16,5 +16,10 @@ namespace LangtonsAnts
         {
             InitializeComponent();
         }
+
+        private void LangtonsForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

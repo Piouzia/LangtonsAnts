@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ant.cs" />
     <Compile Include="LangtonsForm.cs">
       <SubType>Form</SubType>
     </Compile>
