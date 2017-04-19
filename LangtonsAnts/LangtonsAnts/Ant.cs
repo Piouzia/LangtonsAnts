@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace LangtonsAnts
 {
@@ -10,31 +11,19 @@ namespace LangtonsAnts
     {
         public int PositionX { get; private set; }
         public int PositionY { get; private set; }
+        public bool EvilAnt { get; private set; }
 
-        public Ant(int positionX, int positionY)
+        public Ant(int positionX, int positionY, bool evil)
         {
             PositionX = positionX;
             PositionY = positionY;
+            EvilAnt = evil;
         }
 
-        public void MoveAntTop()
+        public void MoveAnt(int x, int y)
         {
-            
-        }
-
-        public void MoveAntBot()
-        {
-
-        }
-
-        public void MoveAntLeft()
-        {
-
-        }
-
-        public void MoveAntRight()
-        {
-
+            PositionX = x;
+            PositionY = y;
         }
 
     }
